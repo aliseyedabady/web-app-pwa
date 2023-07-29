@@ -1,7 +1,7 @@
 import React from "react";
 
-const AuthLayout = () => {
-  return <div>AuthLayout</div>;
+const AuthLayout = ({ children }) => {
+  return <>{children}</>;
 };
 
 export default AuthLayout;
